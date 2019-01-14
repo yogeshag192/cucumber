@@ -20,6 +20,9 @@
 Feature: Google Test Feature File
   I want to use this template for my feature file
 
+  Background: BackGround Processes
+  Given I will print mandatory statement
+  
   @Smoke
   Scenario: Launch
     Given I will Launch Website

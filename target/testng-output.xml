@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testng-results failed="0" passed="1" skipped="0" total="1">
-<suite duration-ms="10085" name="cucumber.runtime.formatter.TestNGFormatter">
-<test duration-ms="10085" name="cucumber.runtime.formatter.TestNGFormatter">
-<class name="Data Table">
-<test-method duration-ms="10085" finished-at="2019-01-10T17:27:20Z" name="Enter Multiple data in Google search box." started-at="2019-01-10T17:27:10Z" status="PASS"/>
+<testng-results failed="0" passed="2" skipped="0" total="2">
+<suite duration-ms="36556" name="cucumber.runtime.formatter.TestNGFormatter">
+<test duration-ms="36556" name="cucumber.runtime.formatter.TestNGFormatter">
+<class name="Google Test Feature File">
+<test-method duration-ms="19155" finished-at="2019-01-14T15:49:28Z" name="Perform multiple search in google search" started-at="2019-01-14T15:49:09Z" status="PASS"/>
+<test-method duration-ms="17401" finished-at="2019-01-14T15:49:45Z" name="Perform multiple search in google search_2" started-at="2019-01-14T15:49:28Z" status="PASS"/>
 </class>
-<class name="Google Test Feature File"/>
 </test>
 </suite>
 </testng-results>

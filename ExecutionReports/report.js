@@ -86,6 +86,10 @@ formatter.feature({
     }
   ]
 });
+formatter.before({
+  "duration": 270522,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 23,
   "name": "Enter Multiple data in Google search box.",
@@ -170,21 +174,25 @@ formatter.match({
   "location": "StepDefinition.i_will_Launch_Website()"
 });
 formatter.result({
-  "duration": 8171478956,
+  "duration": 8702567087,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.i_will_Enter_DATA_in_SearchBox(DataTable)"
 });
 formatter.result({
-  "duration": 964818872,
+  "duration": 782943900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.closebrowser()"
 });
 formatter.result({
-  "duration": 949499570,
+  "duration": 1014542732,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 273322,
   "status": "passed"
 });
 formatter.uri("cucumber/cucumber/Test.feature");

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="1" skipped="0" total="1">
+<suite duration-ms="10500" name="cucumber.runtime.formatter.TestNGFormatter">
+<test duration-ms="10500" name="cucumber.runtime.formatter.TestNGFormatter">
+<class name="Data Table">
+<test-method duration-ms="10500" finished-at="2019-01-14T16:25:49Z" name="Enter Multiple data in Google search box." started-at="2019-01-14T16:25:39Z" status="PASS"/>
+</class>
+<class name="Google Test Feature File"/>
+</test>
+</suite>
+</testng-results>

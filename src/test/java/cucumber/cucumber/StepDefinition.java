@@ -13,6 +13,9 @@ import org.testng.Assert;
 
 import cucumber.api.DataTable;
 import cucumber.api.PendingException;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -23,9 +26,25 @@ import cucumber.api.java.en.When;
 
 public class StepDefinition {
 	
+	
+	@Before
+	public void prepare(){
+		System.out.println("Preparation of Before-Hook 1");
+	}
+	
+	@After
+	public void tearDown(){
+		System.out.println("TearDown of After-Hook 1");
+	}
+	
 	WebDriver driver;
+	@Given("^I will print mandatory statement$")
+	public void i_will_print_mandatory_statement(){
+	    // Write code here that turns the phrase above into concrete actions
+	    System.out.println("Mandatory Background keyword statement");
+	}
 
-	@Given("^I will Launch Website$")
+	@And("^I will Launch Website$")
 	public void i_will_Launch_Website() throws Throwable {
 		
 		String CHROME_DRIVER_PATH = System.getProperty("user.dir") + System.getProperty("file.separator") + "chromedriver.exe";
